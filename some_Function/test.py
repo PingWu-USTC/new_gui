@@ -420,14 +420,14 @@ class MainWindow(QtWidgets.QMainWindow):
     def heightForWidth (self, height):
         return height/2
     """
-
+    """
     def resizeEvent(self, a0: QtGui.QResizeEvent):
         a0.accept()
         if a0.size().height()>a0.size().width():
             self.resize(a0.size().width()*2,a0.size().width())
         else:
             self.resize(a0.size().height()*2,a0.size().height())
-
+    """
 if __name__ == "__main__":
     import sys
 
