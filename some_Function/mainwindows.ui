@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>239</width>
+    <height>228</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>239</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_3ds_sxm">
+    <property name="font">
+     <font>
+      <family>苹方 粗体</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>3ds/sxm</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menulayerview">
+    <property name="font">
+     <font>
+      <family>苹方 粗体</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>layerview</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuTopomapviewer">
+    <property name="title">
+     <string>Topomapviewer</string>
+    </property>
+    <addaction name="actionlinecut_For_3DS"/>
+    <addaction name="actionTopomapView"/>
+   </widget>
+   <widget class="QMenu" name="menudidvspec">
+    <property name="title">
+     <string>didvspec</string>
+    </property>
+   </widget>
+   <addaction name="menu_3ds_sxm"/>
+   <addaction name="menulayerview"/>
+   <addaction name="menuTopomapviewer"/>
+   <addaction name="menudidvspec"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionlinecut_For_3DS">
+   <property name="text">
+    <string>linecut_For_3DS</string>
+   </property>
+  </action>
+  <action name="actionTopomapView">
+   <property name="text">
+    <string>TopomapView</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
